@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	line-height: 1;
+	background: #000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+  
+header {
+	display:block;
+	width: 940px;
+	height: 200px;
+	margin: 0 auto;
+	background: #fff url(../img/javaBanner.jpg) no-repeat left top;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+ 
+header h1,header h2 {
+	margin: 0;
+	padding: 0 0 0 30px;
+	line-height: normal;
+}
+
+header h1 {
+	float: left;
+	clear:both;
+	padding-top: 20px;
+	font-family: BlackRoseRegular, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+}
+
+header h1 a:link,header h1 a:visited {
+	text-decoration: none;
+	text-shadow: 0px 2px 3px #fff;
+	color: #aaa;
+}
+
+header h2 {
+	padding: 20px 0 0 30px;
+	font-style: italic;
+	font-size: 14px;
+	color: #ddd;
+	clear:both;
+}
+ 
+ 
+/* basics */
+h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	clear: both;
+	color: #333;
+}
+ 
+#logo{
+	display: none;
+}
+
+
+
+ #contentWrapper {
+	width:940px;
+	overflow:visible;
+	margin: 0 auto;
+	background-color: #333;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+ 
+#login{
+	color: white;
+}
+
+  #mainWrapper{
+ 	background-image: none;
+ 	 
+ }
+   #outerWrapper{
+ 	background-image: none;
+ }
+ 
+ #adminNavigation  {
+	margin-top:2px;
+}
+
+
+.menuItems {
+	 font-size: 16px; 
+	font-weight: bold;
+	padding: 17px 0 0 0px;
+	list-style: none;
+	line-height: normal;
+	 
+}
+ 
+.menuItems  > li > a   {
+	margin-right: 5px;
+	text-decoration: none;
+	color: #085E9B;
+}
+
+  .menuItems > li > a:hover {
+	color: #333; 
+}
+
+#userSearchInput{
+	margin-left:20px;
+	margin-top:-20px;
+}
+
+ 
+/* #pageState ol, #pageState ul{ */
+ 
+/* 	padding-left:30px; */
+/* } */
+
+
+
+#applicationState{
+	width:940px;
+	margin:0 auto;
+	background-color: white;
+	overflow:auto;
+	padding:20px 0 20px 0;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+
+
+#pageState{
+	padding-top:10px;
+}
+
+ 
+ 
+#footer {
+	width: 920px;
+	height:50px;
+	margin: 0 auto;
+	clear: both;
+	background: #333;
+	color: #FFF;
+	padding-top:30px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+}
+
+#footer a:link,footer a:visited {
+	color: #08B8F9;
+	
+}
+}
+#footer p { 
+	text-align: center;}
+
+}
+
+ 
