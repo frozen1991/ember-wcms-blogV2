@@ -1,0 +1,4 @@
+# Configure your CouchDB host on line 3. Make sure to only make changes between the slashes.
+
+RewriteEngine On
+RewriteRule couchdb/(.+) http://wcmsblog.iriscouch.com/$1 [P]
